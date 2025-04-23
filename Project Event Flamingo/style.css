@@ -77,7 +77,9 @@ body a{
   border-radius: 2rem;
 }
 .btn{
-  background-color:#146984;
+  font-display: flex;
+  background: linear-gradient(to top, #146984, #2c718b, #3d7a92, #4d829a, #5b8ba1);
+  align-items: center;
   color:#daecfa;
   width: 180px;
   height: 55px;
@@ -85,6 +87,10 @@ body a{
   border-color: #ddd;
   border-width: 3px;
   padding-top: 15px 15px;
+  font-size: 25px;
+  border-radius: 50px;
+  gap: 10px;
+  cursor:pointer;
  }
 .heading-primary--main {
   display: block;
@@ -183,12 +189,28 @@ th {
   object-fit: cover;
 }
 
-.section-layout{
-  background-color: #daecfa;
+.section-layout{ 
+ background-color: #daecfa;
  padding:45px;
 }
-footer {
+.contact-inputs{
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #146984;
+  border-radius: 50px;
 
+}
+.contact-inputs:focus{
+  border: 2px solid  #6a2727;
+}
+.contact-inputs::placeholder{
+  color:#6a2727;
+}
+footer {
   background-image: linear-gradient(to top, #ccbfc8ab, #cc8cb1, #d9a9c5, #e6c6d8, #f2e4ec);
   color: #5b8ba1;
   height: 80px;
@@ -213,6 +235,9 @@ footer {
     .table-section {
       flex-direction: column;
       background: #5b8ba1;
+    }
+    .contact-inputs{
+      width:80vw;
     }
   }
   header {

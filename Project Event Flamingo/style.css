@@ -28,6 +28,7 @@ body a{
   text-decoration: none;
   font-weight: bold;
   font-style: "Great Vibes", serif;
+ 
   font-size: 17px;
 }
 
@@ -173,6 +174,10 @@ th {
   width: calc(100% / 6 - 0.5rem);
   height: 100px;
   object-fit: cover;
+}
+
+.section-layout{
+  background-color: #daecfa;
 }
 footer {
   background-color: #dc949f;

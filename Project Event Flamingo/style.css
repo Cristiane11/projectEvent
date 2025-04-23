@@ -42,6 +42,7 @@ body a{
   color: var(--clr-dark);
   padding: 1rem;
   justify-content: space-between;
+
   align-items: center;
   position: relative;
 }
@@ -71,11 +72,20 @@ body a{
 }
 .double-border-btn{
   width:250px;
-  background-color: #146984;
+  background-color:#146984;
+  color:#5b8ba1;
   border-radius: 2rem;
-  
-  
 }
+.btn{
+  background-color:#146984;
+  color:#daecfa;
+  width: 180px;
+  height: 55px;
+  border-style: double 3px;
+  border-color: #ddd;
+  border-width: 3px;
+  padding-top: 15px 15px;
+ }
 .heading-primary--main {
   display: block;
   font-weight: 600;
@@ -140,9 +150,6 @@ nav a {
 .table-section {
   flex: 1;
   min-width: 300px;
- 
-  
-
 }
 table {
   width: 100%;
@@ -178,10 +185,12 @@ th {
 
 .section-layout{
   background-color: #daecfa;
+ padding:45px;
 }
 footer {
-  background-color: #dc949f;
-  color: #fff;
+
+  background-image: linear-gradient(to top, #ccbfc8ab, #cc8cb1, #d9a9c5, #e6c6d8, #f2e4ec);
+  color: #5b8ba1;
   height: 80px;
   display: flex;
   justify-content: center;

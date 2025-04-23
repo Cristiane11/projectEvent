@@ -41,6 +41,8 @@
       <h3>Phone</h3>
       <p>+1706-769-4001</p>
       <form action="#" method="POST">
+        <h3>Get in Touch</h3>
+
         <label for="name">Name</label>
         <input
           type="text"
@@ -48,7 +50,9 @@
           name="name"
           required
           placeholder="Enter Your name"
+          class="contact-inputs"
         />
+        <br />
         <label for="email">Email</label>
         <input
           type="email"
@@ -56,15 +60,22 @@
           name="email"
           required
           placeholder="Enter Your Email"
+          class="contact-inputs"
         />
+        <br />
         <label for="message">Message</label>
         <textarea
           id="message"
           name="message"
           required
           placeholder="Write Your message"
-        ></textarea>
-        <input type="submit" value="send" />
+          class="contact-inputs"
+        >
+        </textarea>
+        <br />
+        <button type="submit" value="submit" class="btn">
+          <img src="./images/favicon.png" width="35px" /> Submit
+        </button>
       </form>
     </section>
     <footer>

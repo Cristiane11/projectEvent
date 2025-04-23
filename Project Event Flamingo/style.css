@@ -26,6 +26,7 @@ body {
 /* Header */
 .header {
   height: 95vh;
+  width: 100%;
   background-image: url("./images/header.jpeg");
   background-size: cover;
   background-position: top;
@@ -58,6 +59,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.double-border-btn{
+  width:250px;
+  background-color: #146984;
+  border-radius: 2rem;
+  
+  
 }
 .heading-primary--main {
   display: block;
@@ -101,9 +109,12 @@ nav a {
   align-items: center;
   justify-content: center;
 }
-img {
-  align-items: left;
-  width: 90px;
+.pargra-image{
+ float: right;
+  width: 265px;
+  border-bottom: #146984;
+  border-style: outset;
+  
 }
 .content-container .table-section {
   background: #5b8ba1;
@@ -120,10 +131,12 @@ img {
 .table-section {
   flex: 1;
   min-width: 300px;
+
 }
 table {
   width: 100%;
   border-collapse: collapse;
+  background: #5b8ba1;
 }
 th,
 td {
@@ -168,9 +181,9 @@ footer a {
 @media (max-width: 900px) {
   .image-grid img {
     width: calc(100% / 3 - 0.5rem);
-    .table-section {
-      flex-direction: column;
-      background: #5b8ba1;
+  .table-section {
+    flex-direction: column;
+    background: #5b8ba1;
     }
   }
 }

@@ -28,53 +28,54 @@ body a{
   text-decoration: none;
   font-weight: bold;
   font-style: "Great Vibes", serif;
- 
   font-size: 17px;
 }
 
 /* Header */
 .header {
   height: 95vh;
-  width: 100%;
   background-image: url("./images/header.jpeg");
   background-size: cover;
   background-position: top;
   color: var(--clr-dark);
   padding: 1rem;
-  justify-content: space-between;
-
-  align-items: center;
   position: relative;
 }
-.headerLogoBox {
-  letter-spacing: 1.5rem;
+.logoBox {
   position: absolute;
   top: 30px;
   left: 30px;
 }
-.header-logo {
-  height: 75px;
+.logo {
+  height: 65px;
 }
-
-.message {
-  text-transform: uppercase;
-  font-family: "IBM Plex Serif", serif;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.message-box{
+  position:absolute;
   text-align: center;
-  color: #146984;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  align-items: center;
+  top:50%;
+  left:50%;
   transform: translate(-50%, -50%);
 }
-.double-border-btn{
-  width:250px;
-  background-color:#146984;
-  color:#5b8ba1;
-  border-radius: 2rem;
+.event-message{
+  text-transform: uppercase;
+  font-family: "IBM Plex Serif", serif;
+  color: #146984;
+}
+.heading-primary--main{
+  display: block;
+  font-size: 2rem;
+}
+.heading-primary--sub{ 
+  display: block;
+}
+
+.message-box >button{
+  background-color:#361536;
+  height: 55px;
+  color:#fff;
+  border: double ;
+  
 }
 .btn{
   font-display: flex;

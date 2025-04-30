@@ -11,20 +11,23 @@
     <title>Project Event</title>
 </head>
 <body>
-   <div class="navigation" >
-      <label for="nav-toggle" class="navigation__button">
-        <span class="navigation__icon">&nbsp;</span>
-    </label>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./event.html">Events</a></li>
-          <li><a href="./contactUs.html">Contact Us</a></li>
-          <li><a href="./menu.html">Menu</a></li>
-          <li><a href="./location.html">Location </a></li>
-        </ul>
-      </nav>  
-    </div>
+  <div class="navigation" >
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+   </label>
+   <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="./index.html" class="navigation__link">Home</a></li>
+        <li class="navigation__item"><a href="./event.html" class="navigation__link">Events</a></li>
+        <li class="navigation__item"><a href="./contactUs.html" class="navigation__link">Contact Us</a></li>
+        <li class="navigation__item"><a href="./menu.html" class="navigation__link">Menu</a></li>
+        <li class="navigation__item"><a href="./location.html" class="navigation__link" >Location </a></li>
+      </ul>
+    </nav>  
+  </div>
     <header class="header" >
         <div class="logoBox">
           <img src="./images/favicon.png" alt="logo-flamingo" class="logo">
@@ -38,10 +41,7 @@
                  
         </div>   
     </header>
-      <section class="content-container">
-
-        <section class="postSection" >
-  
+        <section class="content-container">
           <p>
             <h2>Where does it come from?</h2>
             Contrary to popular belief, Lorem Ipsum is not simply random text. <img  class="pargra-image"src="./images/post Famingo.jpeg" alt="famingo">It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
@@ -49,26 +49,33 @@
             "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
            
           </p>
-        
-    <section class= "section-grid">
-        <div class="image-grid">
-          <img src="images/Flamingo event.jpeg" alt="Image 1">
-          <img src="images/Flamingo event.jpeg" alt="Image 2">
-          <img src="images/Flamingo event.jpeg" alt="Image 3">
-          <img src="images/Flamingo event.jpeg" alt="Image 4">
-          <img src="images/Flamingo event.jpeg" alt="Image 5">
-          <img src="images/Flamingo event.jpeg" alt="Image 6">
-          <img src="images/Flamingo event.jpeg" alt="Image 7">
-          <img src="images/Flamingo event.jpeg" alt="Image 8">
-          <img src="images/Flamingo event.jpeg" alt="Image 9">
-          <img src="images/Flamingo event.jpeg" alt="Image 10">
-          <img src="images/Flamingo event.jpeg" alt="Image 11">
-          <img src="images/Flamingo event.jpeg" alt="Image 12">
-      </section>
-        </div>
-      </section>
+        </section>  
+
+        <section class="events">
+          <h2>Upcoming Events</h2>
+
+          <div class="event-grid">
+              <article class="event">
+                  <img src="images/Flamingo event.jpeg" alt="Concert">
+                  <h3>Live Concert</h3>
+                  <p>Join us for an unforgettable night of music featuring top artists from around the world.</p>
+              </article>
+              <article class="event">
+                  <img src="images/Flamingo event.jpeg" alt="Concert">
+                  <h3>Live Concert</h3>
+                  <p>Join us for an unforgettable night of music featuring top artists from around the world.</p>
+              </article>
+              <article class="event">
+                  <img src="images/Flamingo event.jpeg" alt="Concert">
+                  <h3>Live Concert</h3>
+                  <p>Join us for an unforgettable night of music featuring top artists from around the world.</p>
+              </article>
+          </div>
+        </section>
+ 
+           
     <footer>
-        <p>&copy; 2025 <a href="./contactUs.html">Contact</a> </p>
+        <p>&copy; 2025 <a href="./contactUs.html">Contact</a></p>
     </footer>
 </body>
 </html>

@@ -129,24 +129,24 @@ body a{
 
 .navigation__button {
   background-color: #fff;
-  height: 7rem;
-  width: 7rem;
+  height: 5rem;
+  width: 5rem;
   position: fixed;
-  top: 6rem;
-  right: 6rem;
+  top: 5rem;
+  right: 5rem;
   border-radius: 50%;
   z-index: 2000;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
   text-align: center;
   cursor: pointer; }
 
 .navigation__background {
-  height: 6rem;
-  width: 6rem;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
   position: fixed;
-  top: 6.5rem;
-  right: 6.5rem;
+  top: 5rem;
+  right: 5rem;
   background-image: radial-gradient( #ab74ab, #bd82bd);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
@@ -201,7 +201,7 @@ body a{
 
 .navigation__icon {
   position: relative;
-  margin-top: 3.5rem; }
+  margin-top: 2.5rem; }
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
     width: 3rem;
     height: 2px;
@@ -213,7 +213,7 @@ body a{
     left: 0;
     transition: all .2s; }
   .navigation__icon::before {
-    top: -.8rem; }
+    top: -.7rem; }
   .navigation__icon::after {
     top: .8rem; }
 
@@ -234,12 +234,7 @@ body a{
   top: 0;
   transform: rotate(-135deg); }
 /* Content Layout */
-.postSection {
-  padding: 35px;
-  background-color: #daecfa;
-  align-items: center;
-  justify-content: center;
-}
+
 .pargra-image{
  float: right;
   width: 265px;
@@ -257,7 +252,39 @@ body a{
   color: #daecfa;
   font-weight: 400;
 }
+.events {
+  margin-top: 20px;
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 25px;
+}
 
+.event {
+  border: black 1px solid;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  max-width: 300px;
+}
+
+.event img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* This is using grid without media queries */
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* .event-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
 /* Table Section */
 .table-section {
   flex: 1;
@@ -340,7 +367,10 @@ footer {
 }
 
 @media(max-width: 900px){
+/* 
+text-align:center;
 
+*/
 }
 @media (max-width: 600px) {
   .image-grid img {
@@ -348,9 +378,12 @@ footer {
     .table-section {
       flex-direction: column;
       background: #5b8ba1;
+      text-align:center;
     }
     .contact-inputs{
       width:80vw;
+      align-items: center;
+      text-align:center;
     }
     .locationMap{
       width: 560px;

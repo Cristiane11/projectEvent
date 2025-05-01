@@ -234,7 +234,9 @@ th {
 .section-layout{ 
  background-color: #daecfa;
  padding:45px;
+ align-items: center;
 }
+
 .contact-inputs{
   width: 400px;
   height: 50px;
@@ -251,6 +253,11 @@ th {
 }
 .contact-inputs::placeholder{
   color:#6a2727;
+}
+.contact-image{
+  width: 350px;
+  display: flex;
+  justify-content:right;
 }
 footer {
   background-image: linear-gradient(to top, #ccbfc8ab, #cc8cb1, #d9a9c5, #e6c6d8, #f2e4ec);
@@ -319,4 +326,15 @@ footer {
   flex-direction: column;
   align-items: center;
  }
+ .message-box{
+  visibility: hidden;
+ }
+ .contact-page{
+  display: flex;
+  width:500px;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px;
+ }
+ 
 }

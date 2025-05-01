@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Contact US</title>
   </head>
-  <body>
+  <body class="contact-page">
     <header class="header" >
       <div class="logoBox">
         <img src="./images/favicon.png" alt="logo-flamingo" class="logo">
@@ -31,13 +31,9 @@
       </div>   
   </header>
     <section class="section-layout">
-      <h3>Phone</h3>
-      <p>+1706-769-4001</p>
+      <h3>Get in Touch</h3>
       <form action="https://api.web3forms.com/submit" method="POST">
-        <h3>Get in Touch</h3>
-
         <label for="name">Name</label>
-        <br />
         <input
           type="hidden"
           name="access_key"
@@ -51,9 +47,7 @@
           placeholder="Enter Your name"
           class="contact-inputs"
         />
-        <br />
         <label for="email">Email</label>
-        <br />
         <input
           type="email"
           id="email"
@@ -62,9 +56,7 @@
           placeholder="Enter Your Email"
           class="contact-inputs"
         />
-        <br />
         <label for="message">Message</label>
-        <br />
         <textarea
           id="message"
           name="message"
@@ -73,15 +65,14 @@
           class="contact-inputs"
         >
         </textarea>
-        <br />
         <button type="submit" value="submit" class="btn">
           <img src="./images/favicon.png" width="35px" /> Submit
         </button>
       </form>
+      
     </section>
-    <section  class="#">
-      <img  class="#" src="images/post Famingo.jpeg">
-    </section>
+   
+    
     <footer>
       <p>&copy; 2025 <a href="./contactUs.html">Contact</a></p>
     </footer>
